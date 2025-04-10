@@ -1,0 +1,73 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        
+        header {
+            background: #f4f4f4;
+            background-image;h:\kompendium\gwiazdki.jpg\pngtree-black-background-full-of-shining-stars-image_2944320.jpg
+            color: blueviolet;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        
+        .container {
+            background: blueviolet;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        
+        h2 {
+            color: #f4f4f4;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        
+        nav {
+            background: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: #444;
+        }
+
+        
+        ul {
+            text-align: left;
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+            font-size: 14px;
+        }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafika Wektorowa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-image: url("tło.jpg");
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            max-width: 820px;
+            margin: 20px auto;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="grafika-komputerowa.html">Grafika Komputerowa</a></li>
+            <li><a href="grafika-wektorowa.html">Grafika Wektorowa</a></li>
+            <li><a href="grafika-rastrowa.html">Grafika Rastrowa</a></li>
+            <li><a href="kompendium.html">Kompendium</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Grafika Wektorowa</h1>
+        <p><strong>Grafika wektorowa</strong> to rodzaj obrazu składającego się z linii, krzywych i kształtów matematycznych.</p>
+        <h2>Cechy grafiki wektorowej</h2>
+        <ul>
+            <li>Nieskończona skalowalność – brak utraty jakości</li>
+            <li>Mniejszy rozmiar plików w porównaniu do grafiki rastrowej</li>
+            <li>Idealna do logotypów, ikon i ilustracji</li>
+            <li>Każdy element można łatwo edytować</li>
+        </ul>
+    </div>
+    
+    <div class="image-container">
+        <img src="jeleń.jpg" alt="jeleń" width="300" />
+        <img src="orzeł.jpg" alt="orzeł" width="300" />
+        <img src="papuga.jpg" alt="papuga" width="300" />
+        <img src="lew.jpg" alt="lew" width="300" />
+        <img src="leww.jpg" alt="lew" width="300" />
+        <img src="panda.jpg" alt="panda" width="300" />
+    </div>
+    
+    <div class="container">
+        <p>-Komponenty – Obrazy wektorowe składają się z elementów takich jak linie, krzywe, wielokąty, okręgi czy tekst, które są zdefiniowane za pomocą współrzędnych w przestrzeni 2D lub 3D.</p>
+        <p>-Formaty – Popularne formaty grafiki wektorowej to SVG, EPS, PDF i AI.</p>
+        <p>-Zastosowanie – Grafika wektorowa jest idealna do tworzenia logotypów, ikon, ilustracji, rysunków technicznych oraz projektów wymagających precyzyjnych linii i kształtów.</p>
+        <p>-Skalowalność – Obrazy wektorowe można dowolnie powiększać lub zmniejszać bez utraty jakości.</p>
+        <p>-Renderowanie – Proces renderowania grafiki wektorowej polega na jej konwersji do formatu rastrowego.</p>
+    </div>
+</body>
+</html>
